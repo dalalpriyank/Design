@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="50sp"
+        android:id="@+id/tmps"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tmps"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:text="To provide a mobile application for the college campus which can take orders from students and place order to any food stalls of the campus."
+        android:id="@+id/about_data"
+        />
+
+</RelativeLayout>

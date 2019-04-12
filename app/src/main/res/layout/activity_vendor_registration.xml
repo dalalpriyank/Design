@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/img"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.pagare.design.Register_Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:id="@+id/welcome"
+        android:text="Vendor Registration"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/id_floating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_vendor_id"
+            android:drawableLeft="@drawable/profile_icon"
+            android:layout_marginLeft="25dp"
+            android:drawablePadding="10dp"
+            android:layout_marginRight="25dp"
+            android:hint="Seller ID"
+            android:layout_marginBottom="15dp">
+
+        </EditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fullname_floating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_restaurant_name"
+            android:hint="Restaurant Name"
+            android:drawableLeft="@drawable/home_icon"
+            android:drawablePadding="10dp"
+            android:inputType="text"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="15dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/ower_name_floating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_ower_name"
+            android:hint="Owner Name"
+            android:drawableLeft="@drawable/profile_icon"
+            android:drawablePadding="10dp"
+            android:inputType="text"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="15dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/owner_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_owner_email"
+            android:hint="Owner Email ID"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="15dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/owner_password_floating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_owner_password"
+            android:hint="Password"
+            android:drawableLeft="@drawable/lock_icon"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="15dp"/>
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/owner_phone_floating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_owner_phoneno"
+            android:hint="Phone number"
+            android:drawableLeft="@drawable/phone_icon"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"/>
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:id="@+id/btn_vendor_reg"
+            android:onClick="vendor_register"
+            android:background="#ef070b"
+            android:textColor="#e4dfdf"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+
+            android:fontFamily="sans-serif-smallcaps" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+</ScrollView>
