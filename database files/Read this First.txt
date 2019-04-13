@@ -1,0 +1,6 @@
+1)  First try to import full database (design) if successfully creates the database then its okay...
+or else first delete any table name design from your database...
+
+
+2)  if you want only fields then import files from coloumn folder.
+Make sure you don't have any file with same name as of mine in your database.
